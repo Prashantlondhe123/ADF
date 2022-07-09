@@ -1,0 +1,21 @@
+Azure Data Factory orchestrates the movement 
+and transformation of data between various
+data stores and compute resources. You can
+ create and schedule data-driven workflows 
+(called pipelines) that can ingest data from
+ disparate data stores. You can build complex
+ ETL processes that transform data visually
+ with data flows or by using compute services 
+such as Azure HDInsight, Azure Databricks, 
+Azure Synapse Analytics, and Azure SQL
+ Database.
+
+The purpose of Data Factory is to retrieve 
+data from one or more data sources, and
+convert it into a format that you process
+. The data sources might present data in 
+different ways, and contain noise that you
+need to filter out. The interesting data 
+might not be in a suitable format for
+processing by the other services in 
+warehouse solution, so you can transform it.
