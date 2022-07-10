@@ -1,0 +1,37 @@
+Source and Sink :
+
+A source and a sink are, as their names imply,
+ places data comes from and goes to. Sources
+ and sinks are built on data sets. ADF is
+ mostly concerned with moving data from one 
+place to another, often with some kind of 
+transformation along the way, so it needs to
+ know where to move the data.
+
+It is important to understand that there is
+ mushy distinction between data sets and 
+sources/sinks. A data set defines a particular
+ collection of data, but a source or sink can
+ redefine the collection. For example, suppose 
+DataSet1 is defined as the folder /Vehicles/GM/
+Trucks/. When a source uses DataSet1, it can
+ take that collection as-is (the default), 
+or narrow the set to /Vehicles/GM/Trucks/
+Silverado/ or expand it to /Vehicles/.
+
+There is artful design involved in the
+ trade-offs between data set scope and 
+source/sink scope. My practice is to define
+ data sets somewhat broadly (thereby reducing
+ the number of them), and then allow sources
+ and sinks to narrow down what each needs in
+ a particular situation.
+
+This source uses the zipped data set shown 
+above, narrows it, and makes sure to select
+ only files actually named *.zip
+ (otherwise the unzipping will fail).
+
+
+
+
