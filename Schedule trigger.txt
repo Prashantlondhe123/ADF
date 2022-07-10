@@ -1,0 +1,24 @@
+Schedule trigger :
+
+  This Azure Data Factory Trigger is a popular 
+trigger that can run a Data Pipeline according
+to a predetermined schedule. It provides 
+extra flexibility by allowing for different 
+scheduling intervals like minute(s), hour(s), 
+day(s), week(s), or month(s). 
+
+   You can set the start and end dates for the 
+Schedule Trigger to be active so that it 
+only runs a Pipeline based on the given
+time period. Furthermore, you can also use
+the Schedule Trigger to run on future 
+calendar days and times, such as the 30th
+of each month, the first and third Monday 
+of each month, and more. 
+
+    The Schedule Azure Data Factory Triggers 
+are built with a “many to many” relationship
+in mind, which implies that one Schedule
+Trigger can run several Data Pipelines,
+and a single Data Pipeline can be run by 
+multiple Schedule Triggers
