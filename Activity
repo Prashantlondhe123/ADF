@@ -1,0 +1,9 @@
+Activity:
+
+    Activities are the GUI widgets within Data 
+Factory that do specific kinds of data 
+movement or transformation. There is a
+CopyData activity to move data, a ForEach 
+activity to loop over a file list, a Filter 
+activity that chooses a subset of files, etc. 
+Most activities have a source and a sink
