@@ -1,0 +1,16 @@
+Linked Service:
+
+   A linked service tells ADF how to see the
+particular data or computers you want to operate 
+on. To access a specific Azurestorage account,
+ you create a linked servicefor it and include
+ access credentials. To read/write another
+ storage account, you create another linked 
+service. To allow ADF to operate on an Azure
+ SQL database, your linked service will state
+ the Azure subscription,server name, database
+ name, and credentials.
+
+    This screenshot shows a standard linked
+ service for the most common Azure storage
+ (Azure Data Lake Gen 2 container/blob).
