@@ -1,0 +1,22 @@
+Integration Runtime:
+
+An integration runtime provides the gateway
+ between ADF and the actual data or compute
+ resources you need. If you are using ADF to
+ marshal native Azure resources, such as an
+ Azure Data Lake or Databricks, then ADF knows 
+how to talk to those resources. Just use the
+ built-in integration runtime and don’t think 
+about it — no set up or configuration required.
+
+  But suppose you want ADF to operate on data 
+that is stored on an Oracle Database server 
+under your desk, or computers and data within
+your company’s private network. In these
+cases you must set up the gateway with a
+Self-hosted integration runtime.
+
+ This screenshot shows the built-in integration
+runtime. It comes out of the box and and is
+always there when you access native Azure
+resources.
