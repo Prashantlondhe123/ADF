@@ -1,0 +1,15 @@
+Dataset:
+
+     A data set makes a linked service more
+specific; it describes the folder you are
+using within a storage container, or the table
+ within a database, etc.
+
+  The data set in this screenshot points to one
+directory in one container in one Azure storage 
+account. (The container and directory names are
+ set in the Parameters tab.) Note how the data
+ set references a linked service. Note also
+ that this data set specifies that the data is
+ zipped, which allows ADF to automatically
+ unzip the data as you read it.
