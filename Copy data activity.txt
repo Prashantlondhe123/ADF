@@ -1,0 +1,10 @@
+Copy#Data activity:
+You can copy data to and from more than 90
+ Software-as-a-Service (SaaS) applications
+ (such as Dynamics 365 and Salesforce),
+ on-premises data stores (such as SQL Server
+ and Oracle), and cloud data stores (such as
+ Azure SQL Database and Amazon S3). During 
+copying, you can define and map columns implicitly 
+or explicitly, convert file formats, and even zip
+ andunzip files – all in one task.
