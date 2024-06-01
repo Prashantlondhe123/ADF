@@ -22,3 +22,17 @@ in mind, which implies that one Schedule
 Trigger can run several Data Pipelines,
 and a single Data Pipeline can be run by 
 multiple Schedule Triggers
+
+
+
+## Event  based trigger : 
+A trigger executes the pipelines in response to a blob-related event, such as creating or deleting a blob file, based on Event grid (event messaging service in Azure).
+
+
+##  Custom event : 
+So custom event trigger run pipeline based on event grid message.
+
+
+
+## Tumbling windo trigger :
+Tumbling window trigger is a type of trigger that fires at periodic time intervals from a specified start time. Tumbling windows are a series of fixed-sized, non-overlapping and contiguous time intervals. It is important to remember that tumbling window triggers can be configured to initiate past and future dated loads. A tumbling window trigger has a one-to-one relationship with a pipeline and can only reference a single pipeline.
